@@ -1,0 +1,10 @@
+#board1{
+    margin: 0 auto;
+}
+
+header > h1{
+    text-align: center;
+    color: rgb(49, 133, 115);
+    font-family: monospace;
+    font-size: 45px;
+}
