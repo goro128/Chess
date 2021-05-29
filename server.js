@@ -6,7 +6,7 @@ const express = require('express')
 const app = express()
 const httpServer = require("http").createServer(app)
 const io = require("socket.io")(httpServer)
-const port = 3030
+const port = process.env.PORT || 3030
 
 // seznam trenutno aktivnih iger 
 const activeGames = []
