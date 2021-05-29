@@ -1,0 +1,29 @@
+section{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 300px;
+}
+
+#text{
+    font-size: 25px;
+    color: rgb(49, 133, 115);
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: monospace;
+    outline: none;
+}
+
+#time, #variant{
+    font-size: 25px;
+    border: solid rgb(147, 216, 195);
+    background-color: rgb(190, 240, 223);
+    cursor:pointer;
+    color: rgb(49, 133, 115);
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: monospace;
+    outline: none;
+}
+

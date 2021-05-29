@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vse.css">
+    <link rel="stylesheet" href="create.css">
+    <script src="create.js"></script>
+    <title>Create Room</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1>Online Chess</h1>
+        </a>
+    </header>
+
+    <section>
+        <form>
+            <label for="time" id="text">Choose time format:</label>
+            <select name="time" id="time">
+                <option value="1min">1 min</option>
+                <option value="3min">3 min</option>
+                <option value="3min+2">3 min + 2 s</option>
+                <option value="10min">10 min</option>
+                <option value="10min+5">10 min + 5 s</option>
+            </select><br><br>
+
+            <label for="variant" id="text">Choose variant:</label>
+            <select name="variant" id="variant">
+                <option value="Standard">Standard Chess</option>
+                <option value="960">Chess 960</option>
+            </select><br><br>
+
+            <input type="submit" value="Play" class="btn" id="submit">
+        </form>
+    </section>
+
+    <footer>
+        <span class="bottom">Goro Modic 2021 ©</span>
+    </footer>
+</body>
+
+</html>

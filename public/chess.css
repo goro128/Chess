@@ -1,0 +1,20 @@
+#board1{
+    margin: 0 auto;
+}
+
+#gameid{
+    border-radius: 20px;
+    border: solid rgb(147, 216, 195);
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+    font-family: monospace;
+    color: rgb(49, 133, 115);
+    width: 300px;
+}
+
+header > h1{
+    text-align: center;
+    color: rgb(49, 133, 115);
+    font-size: 45px;
+}
